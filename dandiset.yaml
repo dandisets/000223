@@ -10,9 +10,41 @@ acknowledgement: This work was supported by the ERC Advanced Grant 694829 "neuro
   the Swiss National Science Foundation project 205320-188910, the China Scholarship
   Council (X.X.), and the ETH Zurich Postdoctoral Fellowship 19-2 FEL-17 (A.P.B).
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 4178403253
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - PlaneSegmentation
+  - ElectrodeGroup
+  - ProcessingModule
+  - ElectricalSeries
+  - TwoPhotonSeries
+  - Units
 citation: Xue, Xiaohan; Buccino, Alessio; Kumar, Sreedhar Saseendran; Hierlemann,
   Andreas; Bartram, Julian (2022) Inferring monosynaptic connections from paired spine
   calcium imaging and large-scale recording of extracellular spiking (Version draft)
@@ -22,6 +54,7 @@ contributor:
   - identifier: https://ror.org/05a28rw58
     name: ETH Zurich
     schemaKey: Affiliation
+  awardNumber: China Scholarship Council; ERC advanced grant 694829
   email: xiaohan.xue@outlook.com
   identifier: 0000-0001-5398-2368
   includeInCitation: true
@@ -33,6 +66,7 @@ contributor:
   - identifier: https://ror.org/05a28rw58
     name: ETH Zurich
     schemaKey: Affiliation
+  awardNumber: ETH Zurich Postdoctoral Fellowship 19-2 FEL-17
   email: alessiop.buccino@gmail.com
   identifier: 0000-0003-3661-527X
   includeInCitation: true
@@ -44,6 +78,7 @@ contributor:
   - identifier: https://ror.org/05a28rw58
     name: ETH Zurich
     schemaKey: Affiliation
+  awardNumber: ERC advanced grant 694829
   email: sreedhar.kumar@bsse.ethz.ch
   identifier: 0000-0002-5272-6474
   includeInCitation: true
@@ -55,6 +90,7 @@ contributor:
   - identifier: https://ror.org/05a28rw58
     name: ETH Zurich
     schemaKey: Affiliation
+  awardNumber: ERC advanced grant 694829
   email: andreas.hierlemann@bsse.ethz.ch
   identifier: 0000-0002-3838-2468
   includeInCitation: true
@@ -66,6 +102,7 @@ contributor:
   - identifier: https://ror.org/05a28rw58
     name: ETH Zurich
     schemaKey: Affiliation
+  awardNumber: ERC advanced grant 694829
   email: julian.bartram@bsse.ethz.ch
   identifier: 0000-0001-7513-1716
   includeInCitation: true
