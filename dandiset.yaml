@@ -2,34 +2,101 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000223
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: This work was supported by the ERC Advanced Grant 694829 "neuroXscales",
+  the Swiss National Science Foundation project 205320-188910, the China Scholarship
+  Council (X.X.), and the ETH Zurich Postdoctoral Fellowship 19-2 FEL-17 (A.P.B).
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Xue, Xiaohan (2022) Inferring monosynaptic connections from paired spine
+citation: Xue, Xiaohan; Buccino, Alessio; Kumar, Sreedhar Saseendran; Hierlemann,
+  Andreas; Bartram, Julian (2022) Inferring monosynaptic connections from paired spine
   calcium imaging and large-scale recording of extracellular spiking (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000223/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
   email: xiaohan.xue@outlook.com
+  identifier: 0000-0001-5398-2368
   includeInCitation: true
   name: Xue, Xiaohan
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  email: alessiop.buccino@gmail.com
+  identifier: 0000-0003-3661-527X
+  includeInCitation: true
+  name: Buccino, Alessio
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  email: sreedhar.kumar@bsse.ethz.ch
+  includeInCitation: true
+  name: Kumar, Sreedhar Saseendran
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  email: andreas.hierlemann@bsse.ethz.ch
+  identifier: 0000-0002-3838-2468
+  includeInCitation: true
+  name: Hierlemann, Andreas
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  email: julian.bartram@bsse.ethz.ch
+  includeInCitation: true
+  name: Bartram, Julian
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2022-02-15T13:41:48.719458+00:00'
-description: the dataset contains..
+description: "This dataset contains paired calcium imaging and high-density microelectrode
+  array (HD-MEA) recordings from cortical embryonic cell cultures. \nThe data is used
+  to infer monosynaptic connections using dendritic spine calcium traces and extracellular
+  spiking.\nEach file includes:\n- raw extracellular recordings \n- spike-sorted units\n-
+  imaging series\n- segmentation ROIs (of the target spines and adjacent dendritic
+  shaft)"
+ethicsApproval: []
 id: DANDI:000223/draft
 identifier: DANDI:000223
+keywords:
+- calcium imaging; extracellular recordings; HD-MEA; spike sorting; dendritic spines
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000223/versions/draft/assets/
 name: Inferring monosynaptic connections from paired spine calcium imaging and large-scale
   recording of extracellular spiking
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.2
+studyTarget:
+- Inferring monosynaptic connections from paired spine calcium imaging and large-scale
+  recording of extracellular spiking
 url: https://dandiarchive.org/dandiset/000223/draft
 version: draft
+wasGeneratedBy: []
