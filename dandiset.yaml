@@ -45,6 +45,7 @@ contributor:
     name: ETH Zurich
     schemaKey: Affiliation
   email: sreedhar.kumar@bsse.ethz.ch
+  identifier: 0000-0002-5272-6474
   includeInCitation: true
   name: Kumar, Sreedhar Saseendran
   roleName:
@@ -66,6 +67,7 @@ contributor:
     name: ETH Zurich
     schemaKey: Affiliation
   email: julian.bartram@bsse.ethz.ch
+  identifier: 0000-0001-7513-1716
   includeInCitation: true
   name: Bartram, Julian
   roleName:
