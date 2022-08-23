@@ -130,7 +130,7 @@ name: Inferring monosynaptic connections from paired spine calcium imaging and l
   recording of extracellular spiking
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget:
