@@ -47,8 +47,8 @@ assetsSummary:
   - Units
 citation: Xue, Xiaohan; Buccino, Alessio; Kumar, Sreedhar Saseendran; Hierlemann,
   Andreas; Bartram, Julian (2022) Inferring monosynaptic connections from paired spine
-  calcium imaging and large-scale recording of extracellular spiking (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000223/draft
+  calcium imaging and large-scale recording of extracellular spiking (Version 0.220823.0826)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000223/0.220823.0826
 contributor:
 - affiliation:
   - identifier: https://ror.org/05a28rw58
@@ -111,24 +111,38 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2022-02-15T13:41:48.719458+00:00'
+datePublished: '2022-08-23T08:26:24.357387+00:00'
 description: "This dataset contains paired calcium imaging and high-density microelectrode
   array (HD-MEA) recordings from cortical embryonic cell cultures. \nThe data is used
   to infer monosynaptic connections using dendritic spine calcium traces and extracellular
   spiking.\nEach file includes:\n- raw extracellular recordings \n- spike-sorted units\n-
   imaging series\n- segmentation ROIs (of the target spines and adjacent dendritic
   shaft)"
+doi: 10.48324/dandi.000223/0.220823.0826
 ethicsApproval: []
-id: DANDI:000223/draft
+id: DANDI:000223/0.220823.0826
 identifier: DANDI:000223
 keywords:
 - calcium imaging; extracellular recordings; HD-MEA; spike sorting; dendritic spines
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000223/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000223/0.220823.0826/assets.yaml
 name: Inferring monosynaptic connections from paired spine calcium imaging and large-scale
   recording of extracellular spiking
 protocol: []
+publishedBy:
+  endDate: '2022-08-23T08:26:24.357387+00:00'
+  id: urn:uuid:58059733-6188-43a2-b7c2-f36849dadfdd
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-08-23T08:26:24.357387+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:105ac09e-6e83-45e0-aa1e-510d7e210db7
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
@@ -136,6 +150,6 @@ schemaVersion: 0.6.2
 studyTarget:
 - Inferring monosynaptic connections from paired spine calcium imaging and large-scale
   recording of extracellular spiking
-url: https://dandiarchive.org/dandiset/000223/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000223/0.220823.0826
+version: 0.220823.0826
 wasGeneratedBy: []
